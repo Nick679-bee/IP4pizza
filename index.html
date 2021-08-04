@@ -59,7 +59,193 @@
                         <h1>Nicko pizaa</h1>
                         <p>Best pizza</p>
                     </div>
-               
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </div>
+          <h1 id="about">About us</h1>
+
+                <p id="about-us"> The only delicious pizza cut in slices and in affordable price
+                    <br>we value you and serve every pizza you desire.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="landing">
+        <div class="overlay">
+            <div id="push"></div>
+            <div class="landing-text">
+                <h1 class="text-white text-center"><span class="pizz">Nicko </span><span class="pizz">Pizza!</span></h1>
+                <h2 class="text-white text-center">Get your pizza in an instant.</h2>
+            </div>
+            <div class="h-buttons text-center">
+                <a href="#menus">
+                    <button class="btn bg-info floater  infinite delay-2s">menu</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="menus"></div>
+    <br>
+    <div class="menu col-md-12">
+        <div class="menu-overlay">
+            <h1 class="text-center text-white" id="menu">Menu</h1>
+            <div class="pizza-menu row text-center">
+                <figure class="col-sm-4">
+                    <img src="./image/images (3).jpeg" alt="small-pizza" class="wiggle">
+                    <figcaption class="text-white">Regular<br>Ksh. 300</figcaption>
+                </figure>
+                <figure class="col-sm-4">
+                    <img src="./image/download (1).jpeg" alt="medium-pizza" class="wiggle">
+                    <figcaption class="text-white">Medium<br>Ksh. 600</figcaption>
+                </figure>
+                <figure class="col-sm-4">
+                    <img src="./image/download (2).jpeg" alt="large-pizza" class="wiggle">
+                    <figcaption class="text-white">Large<br>Ksh. 1200</figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <div class="orders" id="order">
+        <h1 class="text-center" id="order-pizza">Order Pizza</h1>
+        <div class="form-group row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8 order-overlay text-center">
+                <form class="col-sm-6 offset-sm-3 text-center">
+                    <label>Pick your pizza Flavour:</label>
+                    <select class="custom-select custom-select-md mb-3 flavour" required>
+
+                    <option value="vegtikka">Veg Tikka</option>
+                    <option value="chickentikka">Chicken Tikka</option>
+                    <option value="periperi">Peri-Peri Chicken</option>
+                    <option value="bbq">BBQ Steak</option>
+                    <option value="boerewors">Boerewors</option>
+                    <option value="hawaiian">Hawaiian</option>
+                    <option value="mushroom">Chicken and Mushroom</option>
+                    <option value="regina">Regina Pizza</option>
+                </select>
+                    <label>Chose your preferred Size:</label>
+                    <select class="custom-select custom-select-md mb-3" id="size" required>
+                    <option value="regular">Regular</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+                    <label for="crust">Choose your favorite Crust:</label>
+                    <select class="custom-select custom-select-md mb-3" id="crust" required>
+                    <option value="thin">Thin Crust @ Ksh. 100</option>
+                    <option value="thick">Thick Crust @ Ksh. 150</option>
+                    <option value="flatbread">FlatBread Crust @ sh. 180</option>
+                    <option value="custom">Custom Crust @ sh. 280</option>
+                </select>
+                    <label>Select Your favorite Toppings</label>
+                    <select class="custom-select custom-select-md mb-3" id="toppings" required>
+                    <option value="tomato">Tomato @ sh. 80</option>
+                    <option value="onions">Onions @ sh. 80</option>
+                    <option value="mushroom">Mushroom @ sh. 80</option>
+                    <option value="greenpepper">Green Pepper @ sh. 80</option>
+                    <option value="olives">Olives @ sh. 120</option>
+                    <option value="pineapple">Pineapple @ sh. 120</option>
+                    <option value="sweetcorn">Sweet Corn @ sh. 120</option>
+                    <option value="macon">Macon @ sh. 120</option>
+                    <option value="mince">Mince @ sh. 120</option>
+                    <option value="beef">Beef Peperoni @ sh. 170</option>
+                    <option value="chicken">Periperi Chicken @ sh. 170</option>
+                </select>
+                    <label for="number">Number of Pizza's</label>
+                    <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
+
+
+                </form>
+                <a href="#summary">
+                    <button type="submit" class="btn btn-success checkout" id="checkout">
+                    Checkout
+                </button>
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <div class="order-summary" id="sum-order">
+        <h1 class="text-center" id="summary">Order Summary</h1>
+        <h2 class="text-center summary">Hello there, your order is as follows:</h2>
+        <ol id="list" class="text-center sum">
+        </ol>
+
+
+        <div class="cdata-overlay">
+            <div class="customerdata row">
+                <div class="col-sm-3"></div>
+                <form action="" class="form-group col-sm-6 data">
+                    <input type="text" class="form-control cdata" placeholder="Enter your Name:">
+                    <input type="text" class="form-control cdata" placeholder="Enter your phone number: ">
+                    <input type="text" class="form-control cdata" placeholder="Enter the location: ">
+                    <button class="btn bg-info text-center d-block mx-auto go">Make Delivery</button>
+                </form>
+
+                <div class="col-sm-3"></div>
+            </div>
+        </div>
+        <div class="d-block mx-auto text-center">
+            <button class='deliver'>Make Delivery</button>
+            <button class='DeliverNot'>Pick Up</button>
+        </div>
+    </div>
+    <div class="contacts">
+        <div class="contact-overlay">
+            <h1 class="text-center contact text-white">Contacts:</h1>
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-5 subs">
+                    <h1 class="text-white text-center"> Call Us </h1>
+                    <p class="text-center">+254 123456789</p>
+
+                    <form>
+                        <div class="email-info">
+                            <div class="form-group fill-all-form">
+                                <input type="email" class="form-control bg-transparent email" id="email" placeholder="Email" required="">
+                            </div>
+                        </div>
+                        <div class=" email-info text-center">
+                            <button class="btn click-me" onclick="subscribe();">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm-5">
+                    <h4 class="text-center get-pizza">We love feedback..send us a mail</h4>
+                </div>
+                <div class="col-sm-1"></div>
+            </div>
+        </div>
+    </div>
+
+
+</html>
+    <div class="container-fluid footer row">
+        <div class="col-md-6 Get in touch">
+            <h4>Contact us</h4>
+            <p><i >&nbsp;The HUB Karen</i></p>
+            <p><i >&nbsp;0714740995</i></p>
+            <p><i >&nbsp;info@Nickopizza.com</i></p>
+        </div>
+        <div class="col-md-6 social icons">
+            <div id="contacts" class="small-divs">
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./js/jquery.js"></script>
+<script src="./js/Script.js"></script>
+<script src="./js/scrollify.js"></script>
+
 
 </body>
 </html>
