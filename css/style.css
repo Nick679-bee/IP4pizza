@@ -2,7 +2,7 @@
 
 h3 {
     text-align: center;
-    color: black;
+    color: rgb(240, 30, 30);
     text-decoration-line: underline;
 }
 
@@ -26,13 +26,13 @@ header {
 }
 
 .carousel-caption h1 {
-    color: black;
+    color: rgb(230, 24, 24);
     text-align: center;
     font-family: Helvetica;
 }
 
 .carousel-caption p {
-    color: black;
+    color: rgb(209, 16, 16);
     font-weight: 700;
     margin-top: -10;
     font-family: Helvetica;
@@ -70,7 +70,7 @@ h4 {
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 1px;
-    color: #000;
+    color: rgb(228, 35, 35);
 }
 
 #order-pizza {
@@ -81,7 +81,7 @@ h4 {
 .order-overlay {
     height: inherit;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(223, 23, 23, 0.9);
     border-radius: 20px;
 }
 
@@ -91,7 +91,7 @@ h4 {
 }
 
 #list {
-    color: #000;
+    color: rgb(241, 26, 26);
 }
 
 .pizz {
@@ -111,7 +111,7 @@ h4 {
 .menu-overlay {
     height: inherit;
     width: inherit;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(218, 20, 20, 0.7);
 }
 
 .landing {
@@ -122,7 +122,7 @@ h4 {
 }
 
 .overlay {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(214, 26, 26, 0.7);
     height: 100%;
 }
 
@@ -161,7 +161,7 @@ figure img {
 
 .txt {
     font-family: system-ui, cursive;
-    color: black;
+    color: red;
     font-size: 23px;
 }
 
@@ -207,7 +207,7 @@ figure img {
     .menu-overlay {
         width: 100%;
         height: inherit;
-        background-color: rgba(0, 0, 0, 0.7);
+        background-color: rgba(212, 27, 27, 0.7);
     }
     .karibu-img {
         margin-left: 20px;
