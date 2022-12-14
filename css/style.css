@@ -6,6 +6,10 @@ h3 {
     text-decoration-line: underline;
 }
 
+.text-white {
+    color: rgb(245, 232, 232);
+}
+
 h2 {
     margin: 5%;
     text-align: center;
