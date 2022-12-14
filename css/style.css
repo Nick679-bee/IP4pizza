@@ -130,8 +130,14 @@ h4 {
     padding-top: 10%;
 }
 
+.landing {
+
+     background-color: cyan;
+}
+
 .landing-text {
     margin-top: 10%;
+    background-color: #3f51b5;
 }
 
 .landing-text h1,
